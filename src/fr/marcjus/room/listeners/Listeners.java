@@ -28,11 +28,6 @@ public class Listeners implements Listener {
 			Block block = e.getClickedBlock();
 			if (block.getType().equals(Material.STONE_BUTTON)) {
 				if (block.getLocation().equals(new Location(Bukkit.getWorld("world"), -380, 70, 388))) {
-					/*
-					 * if(!player.isOp()){ e.setCancelled(true);
-					 * player.sendMessage(ChatColor.
-					 * DARK_RED+"Vous n'avez pas accés a cette porte ! "); }
-					 */
 					if (main.getPersonnel().contains(player.getName())) {
 						player.sendMessage(main.getConfig().getString("messages.allow").replace('&', '§'));
 					} else {
