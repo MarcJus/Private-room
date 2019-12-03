@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import fr.marcjus.room.listeners.Listeners;
 
-public class Main extends JavaPlugin {
+public class Room extends JavaPlugin {
 
 	private ArrayList<String> personnel = new ArrayList<>();
 

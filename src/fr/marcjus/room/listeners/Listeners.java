@@ -10,13 +10,13 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import fr.marcjus.room.Main;
+import fr.marcjus.room.Room;
 
 public class Listeners implements Listener {
 
-	private Main main;
+	private Room main;
 
-	public Listeners(Main main) {
+	public Listeners(Room main) {
 		this.main = main;
 	}
 
