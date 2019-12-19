@@ -1,4 +1,4 @@
 name: PrivateRoom
 version: 1.0
 author: MarcJus
-main: fr.marcjus.room.Main
+main: fr.marcjus.room.Room
